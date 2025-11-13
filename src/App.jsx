@@ -87,7 +87,7 @@ export default function App() {
           <div className="workspace-logo">Q</div>
           <div>
             <div className="workspace-name">QTBI</div>
-            <div className="workspace-plan">Startup</div>
+            <div className="workspace-plan">Quality to be Improved</div>
           </div>
         </div>
 
