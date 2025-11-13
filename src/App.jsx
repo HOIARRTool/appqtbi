@@ -14,7 +14,7 @@ const availableApps = [
   },
   {
     id: "thip2025",
-    name: "THIP 2025",
+    name: "Graph Analysis",
     category: "quality",
     description: "Industrial transformation initiative",
     price: "Free",
