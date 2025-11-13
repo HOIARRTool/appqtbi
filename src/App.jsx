@@ -37,7 +37,7 @@ const availableApps = [
     category: "quality",
     description: "Support for self-assessment reporting",
     price: "Free",
-    link: "https://sar-writing.onrender.com/",
+    link: "https://sar2022.onrender.com/",
     iconText: "SAR",
   },
 ];
