@@ -153,7 +153,7 @@ export default function App() {
         {activeTab === "app" && (
           <>
             <header className="main-header">
-              <h1>Available Applications</h1>
+              <h2>กรุณาเลือกโปรแกรมที่ต้องการใช้งาน</h2>
               <span className="apps-count">{availableApps.length} apps</span>
             </header>
 
