@@ -136,7 +136,34 @@ body {
 .main {
   flex: 1;
   padding: 24px 32px;
-  background: #f9fafb;
+  background: #ffffff; /* เปลี่ยนเป็นพื้นหลังสีขาว */
+}
+
+/* โลโก้ 4 อันด้านบนของ main */
+.logo-strip {
+  width: 100%;
+  display: flex;
+  justify-content: center;   /* อยู่ตรงกลางแนวนอน */
+  align-items: center;       /* อยู่ระดับเดียวกัน */
+  gap: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+/* ขนาดฐานของโลโก้ */
+.logo-img {
+  height: 40px;
+}
+
+/* โลโก้ที่ 2 และ 3: ใหญ่ขึ้น 20% -> 48px */
+.logo-img-2,
+.logo-img-3 {
+  height: 48px;
+}
+
+/* โลโก้ที่ 4: เล็กลง 20% -> 32px */
+.logo-img-4 {
+  height: 32px;
 }
 
 .main-header {
@@ -154,30 +181,6 @@ body {
 .apps-count {
   font-size: 13px;
   color: #6b7280;
-}
-/* Logo strip ด้านบนของ main */
-
-.logo-strip {
-  width: 100%;
-  display: flex;
-  justify-content: center;   /* ให้อยู่ตรงกลาง */
-  align-items: flex-start;
-  gap: 12px;
-  margin-top: 8px;
-  margin-bottom: 16px;
-}
-
-.logo-img {
-  height: 40px;              /* ถ้าอยากใหญ่/เล็ก เปลี่ยนตัวเลขนี้ได้ */
-}
-
-/* จูนระดับโลโก้ที่ 3 และ 4 ตามที่เคยคุยกัน */
-.logo-img-3 {
-  margin-top: -3px;          /* ดันขึ้นนิดหน่อย */
-}
-
-.logo-img-4 {
-  margin-top: 4px;           /* ดันลงนิดหน่อย */
 }
 
 /* Apps grid */
