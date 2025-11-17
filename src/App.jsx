@@ -20,7 +20,7 @@ const availableApps = [
     price: "Free",
     link:
       "https://opal.google/?flow=drive:/1Is5JeO-QMFM72F01p1jt79ORKyd0h8mq&shared&mode=app",
-    iconText: "TH",        // <- ตรงนี้แหละที่เปลี่ยนเป็น TH
+    iconText: "TH",
   },
   {
     id: "rca",
@@ -126,6 +126,30 @@ export default function App() {
 
       {/* Main content */}
       <main className="main">
+        {/* ✅ โลโก้ 4 อัน อยู่ตรงกลางด้านบนสุด */}
+        <div className="logo-strip">
+          <img
+            src="https://github.com/HOIARRTool/appqtbi/blob/main/messageImage_1763018987241.jpg?raw=true"
+            alt="Logo 1"
+            className="logo-img"
+          />
+          <img
+            src="https://github.com/HOIARRTool/appqtbi/blob/main/messageImage_1763018963411.jpg?raw=true"
+            alt="Logo 2"
+            className="logo-img"
+          />
+          <img
+            src="https://mfu.ac.th/fileadmin/_processed_/6/7/csm_logo_mfu_3d_colour_15e5a7a50f.png"
+            alt="Logo 3"
+            className="logo-img logo-img-3"
+          />
+          <img
+            src="https://github.com/HOIARRTool/appqtbi/blob/main/logoSHS.png?raw=true"
+            alt="Logo 4"
+            className="logo-img logo-img-4"
+          />
+        </div>
+
         {activeTab === "app" && (
           <>
             <header className="main-header">
